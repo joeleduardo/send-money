@@ -64,8 +64,9 @@ test('Home page container and addLoan function', () => {
   setImmediate(() => {
     cHomeContainer.update();
     expect(store.getActions()).toEqual(expectedAction)
-    expect(cHomeContainer).toMatchSnapshot();
   });
+
+  expect(cHomeContainer).toMatchSnapshot();
 
 });
 
@@ -91,7 +92,7 @@ test('Home page container and getLoans function', () => {
   setImmediate(() => {
     cHomeContainer.update();
     expect(store.getActions()).toEqual(expectedAction)
-    expect(cHomeContainer).toMatchSnapshot();
   });
 
+  expect(cHomeContainer).toMatchSnapshot();
 });
