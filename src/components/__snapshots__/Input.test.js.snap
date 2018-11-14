@@ -1,0 +1,482 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Input
+    currency=""
+    label="Name"
+    name="name"
+    onChange={[Function]}
+    prompt="Friend name"
+    validation=""
+    value=""
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        "",
+        <label
+          htmlFor="name"
+>
+          Name
+          <input
+                    autoComplete="off"
+                    id="name"
+                    name="name"
+                    onChange={[Function]}
+                    placeholder="Friend name"
+                    style={Object {}}
+                    type="text"
+                    value=""
+          />
+</label>,
+        "",
+      ],
+      "className": "input",
+    },
+    "ref": null,
+    "rendered": Array [
+      "",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Name",
+            <input
+              autoComplete="off"
+              id="name"
+              name="name"
+              onChange={[Function]}
+              placeholder="Friend name"
+              style={Object {}}
+              type="text"
+              value=""
+/>,
+          ],
+          "htmlFor": "name",
+        },
+        "ref": null,
+        "rendered": Array [
+          "Name",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "autoComplete": "off",
+              "id": "name",
+              "name": "name",
+              "onChange": [Function],
+              "placeholder": "Friend name",
+              "style": Object {},
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "label",
+      },
+      "",
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          "",
+          <label
+            htmlFor="name"
+>
+            Name
+            <input
+                        autoComplete="off"
+                        id="name"
+                        name="name"
+                        onChange={[Function]}
+                        placeholder="Friend name"
+                        style={Object {}}
+                        type="text"
+                        value=""
+            />
+</label>,
+          "",
+        ],
+        "className": "input",
+      },
+      "ref": null,
+      "rendered": Array [
+        "",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Name",
+              <input
+                autoComplete="off"
+                id="name"
+                name="name"
+                onChange={[Function]}
+                placeholder="Friend name"
+                style={Object {}}
+                type="text"
+                value=""
+/>,
+            ],
+            "htmlFor": "name",
+          },
+          "ref": null,
+          "rendered": Array [
+            "Name",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "autoComplete": "off",
+                "id": "name",
+                "name": "name",
+                "onChange": [Function],
+                "placeholder": "Friend name",
+                "style": Object {},
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "label",
+        },
+        "",
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;
+
+exports[`Input component currency, validation 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Input
+    currency="€"
+    label="Name"
+    name="name"
+    prompt="Friend name"
+    validation="Please enter a valid name"
+    value=""
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="currency"
+>
+          €
+</div>,
+        <label
+          htmlFor="name"
+>
+          Name
+          <input
+                    autoComplete="off"
+                    id="name"
+                    name="name"
+                    onChange={[Function]}
+                    placeholder="Friend name"
+                    style={
+                              Object {
+                                        "borderColor": "#F1586B",
+                                        "paddingLeft": "1rem",
+                                      }
+                    }
+                    type="text"
+                    value=""
+          />
+</label>,
+        <div
+          className="error-msg"
+>
+          Please enter a valid name
+</div>,
+      ],
+      "className": "input",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "€",
+          "className": "currency",
+        },
+        "ref": null,
+        "rendered": "€",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Name",
+            <input
+              autoComplete="off"
+              id="name"
+              name="name"
+              onChange={[Function]}
+              placeholder="Friend name"
+              style={
+                            Object {
+                                          "borderColor": "#F1586B",
+                                          "paddingLeft": "1rem",
+                                        }
+              }
+              type="text"
+              value=""
+/>,
+          ],
+          "htmlFor": "name",
+        },
+        "ref": null,
+        "rendered": Array [
+          "Name",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "autoComplete": "off",
+              "id": "name",
+              "name": "name",
+              "onChange": [Function],
+              "placeholder": "Friend name",
+              "style": Object {
+                "borderColor": "#F1586B",
+                "paddingLeft": "1rem",
+              },
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+        ],
+        "type": "label",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Please enter a valid name",
+          "className": "error-msg",
+        },
+        "ref": null,
+        "rendered": "Please enter a valid name",
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="currency"
+>
+            €
+</div>,
+          <label
+            htmlFor="name"
+>
+            Name
+            <input
+                        autoComplete="off"
+                        id="name"
+                        name="name"
+                        onChange={[Function]}
+                        placeholder="Friend name"
+                        style={
+                                    Object {
+                                                "borderColor": "#F1586B",
+                                                "paddingLeft": "1rem",
+                                              }
+                        }
+                        type="text"
+                        value=""
+            />
+</label>,
+          <div
+            className="error-msg"
+>
+            Please enter a valid name
+</div>,
+        ],
+        "className": "input",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "€",
+            "className": "currency",
+          },
+          "ref": null,
+          "rendered": "€",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Name",
+              <input
+                autoComplete="off"
+                id="name"
+                name="name"
+                onChange={[Function]}
+                placeholder="Friend name"
+                style={
+                                Object {
+                                                "borderColor": "#F1586B",
+                                                "paddingLeft": "1rem",
+                                              }
+                }
+                type="text"
+                value=""
+/>,
+            ],
+            "htmlFor": "name",
+          },
+          "ref": null,
+          "rendered": Array [
+            "Name",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "autoComplete": "off",
+                "id": "name",
+                "name": "name",
+                "onChange": [Function],
+                "placeholder": "Friend name",
+                "style": Object {
+                  "borderColor": "#F1586B",
+                  "paddingLeft": "1rem",
+                },
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+          ],
+          "type": "label",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Please enter a valid name",
+            "className": "error-msg",
+          },
+          "ref": null,
+          "rendered": "Please enter a valid name",
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

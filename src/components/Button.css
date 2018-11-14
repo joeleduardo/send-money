@@ -1,0 +1,11 @@
+button {
+  outline: transparent;
+  background: #4b3cfa;
+  color: #fff;
+  margin-top: 6rem;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 100%;
+  font-size: 1rem;
+  cursor: pointer;
+}

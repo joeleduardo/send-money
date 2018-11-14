@@ -1,0 +1,831 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home page 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Home
+    addLoan={[Function]}
+    data={
+        Object {
+            "loans": Array [
+              Object {
+                "amount": "1000.00",
+                "email": "joeleduardo@hotmail.com",
+                "name": "Joel Ortiz",
+              },
+            ],
+          }
+    }
+    getLoans={[Function]}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        "",
+        <section>
+          <h1>
+                    Send Money
+          </h1>
+          <div>
+                    <Input
+                              currency=""
+                              label="Name"
+                              name="name"
+                              onChange={[Function]}
+                              prompt="Friend name"
+                              validation=""
+                              value="Samantha Adriano"
+                    />
+                    <Input
+                              currency=""
+                              label="Email"
+                              name="email"
+                              onChange={[Function]}
+                              prompt="friend@friend.com"
+                              validation=""
+                              value="sammadrianos@gmail.com"
+                    />
+                    <Input
+                              currency="£"
+                              label="Amount"
+                              name="amount"
+                              onChange={[Function]}
+                              prompt="1000.00"
+                              validation=""
+                              value="5500.00"
+                    />
+                    <Button
+                              enabled={true}
+                              onClick={[Function]}
+                              text="Send"
+                    />
+          </div>
+</section>,
+        <section>
+          <h1>
+                    My Account
+          </h1>
+          <chartComponent
+                    chartData={
+                              Array [
+                                        "1000.00",
+                                        "4000.00",
+                                      ]
+                    }
+                    chartLabels={
+                              Array [
+                                        "Total sent",
+                                        "Left available",
+                                      ]
+                    }
+          />
+          <div>
+                    <h3>
+                              Transactions
+                    </h3>
+                    <List
+                              items={
+                                        Array [
+                                                  Object {
+                                                    "amount": "1000.00",
+                                                    "email": "joeleduardo@hotmail.com",
+                                                    "name": "Joel Ortiz",
+                                                  },
+                                                ]
+                              }
+                    />
+          </div>
+</section>,
+      ],
+      "className": "wrapper",
+    },
+    "ref": null,
+    "rendered": Array [
+      "",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h1>
+              Send Money
+</h1>,
+            <div>
+              <Input
+                            currency=""
+                            label="Name"
+                            name="name"
+                            onChange={[Function]}
+                            prompt="Friend name"
+                            validation=""
+                            value="Samantha Adriano"
+              />
+              <Input
+                            currency=""
+                            label="Email"
+                            name="email"
+                            onChange={[Function]}
+                            prompt="friend@friend.com"
+                            validation=""
+                            value="sammadrianos@gmail.com"
+              />
+              <Input
+                            currency="£"
+                            label="Amount"
+                            name="amount"
+                            onChange={[Function]}
+                            prompt="1000.00"
+                            validation=""
+                            value="5500.00"
+              />
+              <Button
+                            enabled={true}
+                            onClick={[Function]}
+                            text="Send"
+              />
+</div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Send Money",
+            },
+            "ref": null,
+            "rendered": "Send Money",
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Input
+                  currency=""
+                  label="Name"
+                  name="name"
+                  onChange={[Function]}
+                  prompt="Friend name"
+                  validation=""
+                  value="Samantha Adriano"
+/>,
+                <Input
+                  currency=""
+                  label="Email"
+                  name="email"
+                  onChange={[Function]}
+                  prompt="friend@friend.com"
+                  validation=""
+                  value="sammadrianos@gmail.com"
+/>,
+                <Input
+                  currency="£"
+                  label="Amount"
+                  name="amount"
+                  onChange={[Function]}
+                  prompt="1000.00"
+                  validation=""
+                  value="5500.00"
+/>,
+                <Button
+                  enabled={true}
+                  onClick={[Function]}
+                  text="Send"
+/>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "currency": "",
+                  "label": "Name",
+                  "name": "name",
+                  "onChange": [Function],
+                  "prompt": "Friend name",
+                  "validation": "",
+                  "value": "Samantha Adriano",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "currency": "",
+                  "label": "Email",
+                  "name": "email",
+                  "onChange": [Function],
+                  "prompt": "friend@friend.com",
+                  "validation": "",
+                  "value": "sammadrianos@gmail.com",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "currency": "£",
+                  "label": "Amount",
+                  "name": "amount",
+                  "onChange": [Function],
+                  "prompt": "1000.00",
+                  "validation": "",
+                  "value": "5500.00",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "enabled": true,
+                  "onClick": [Function],
+                  "text": "Send",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "section",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h1>
+              My Account
+</h1>,
+            <chartComponent
+              chartData={
+                            Array [
+                                          "1000.00",
+                                          "4000.00",
+                                        ]
+              }
+              chartLabels={
+                            Array [
+                                          "Total sent",
+                                          "Left available",
+                                        ]
+              }
+/>,
+            <div>
+              <h3>
+                            Transactions
+              </h3>
+              <List
+                            items={
+                                          Array [
+                                                        Object {
+                                                          "amount": "1000.00",
+                                                          "email": "joeleduardo@hotmail.com",
+                                                          "name": "Joel Ortiz",
+                                                        },
+                                                      ]
+                            }
+              />
+</div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "My Account",
+            },
+            "ref": null,
+            "rendered": "My Account",
+            "type": "h1",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "chartData": Array [
+                "1000.00",
+                "4000.00",
+              ],
+              "chartLabels": Array [
+                "Total sent",
+                "Left available",
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h3>
+                  Transactions
+</h3>,
+                <List
+                  items={
+                                    Array [
+                                                      Object {
+                                                        "amount": "1000.00",
+                                                        "email": "joeleduardo@hotmail.com",
+                                                        "name": "Joel Ortiz",
+                                                      },
+                                                    ]
+                  }
+/>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Transactions",
+                },
+                "ref": null,
+                "rendered": "Transactions",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "items": Array [
+                    Object {
+                      "amount": "1000.00",
+                      "email": "joeleduardo@hotmail.com",
+                      "name": "Joel Ortiz",
+                    },
+                  ],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "section",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          "",
+          <section>
+            <h1>
+                        Send Money
+            </h1>
+            <div>
+                        <Input
+                                    currency=""
+                                    label="Name"
+                                    name="name"
+                                    onChange={[Function]}
+                                    prompt="Friend name"
+                                    validation=""
+                                    value="Samantha Adriano"
+                        />
+                        <Input
+                                    currency=""
+                                    label="Email"
+                                    name="email"
+                                    onChange={[Function]}
+                                    prompt="friend@friend.com"
+                                    validation=""
+                                    value="sammadrianos@gmail.com"
+                        />
+                        <Input
+                                    currency="£"
+                                    label="Amount"
+                                    name="amount"
+                                    onChange={[Function]}
+                                    prompt="1000.00"
+                                    validation=""
+                                    value="5500.00"
+                        />
+                        <Button
+                                    enabled={true}
+                                    onClick={[Function]}
+                                    text="Send"
+                        />
+            </div>
+</section>,
+          <section>
+            <h1>
+                        My Account
+            </h1>
+            <chartComponent
+                        chartData={
+                                    Array [
+                                                "1000.00",
+                                                "4000.00",
+                                              ]
+                        }
+                        chartLabels={
+                                    Array [
+                                                "Total sent",
+                                                "Left available",
+                                              ]
+                        }
+            />
+            <div>
+                        <h3>
+                                    Transactions
+                        </h3>
+                        <List
+                                    items={
+                                                Array [
+                                                            Object {
+                                                              "amount": "1000.00",
+                                                              "email": "joeleduardo@hotmail.com",
+                                                              "name": "Joel Ortiz",
+                                                            },
+                                                          ]
+                                    }
+                        />
+            </div>
+</section>,
+        ],
+        "className": "wrapper",
+      },
+      "ref": null,
+      "rendered": Array [
+        "",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h1>
+                Send Money
+</h1>,
+              <div>
+                <Input
+                                currency=""
+                                label="Name"
+                                name="name"
+                                onChange={[Function]}
+                                prompt="Friend name"
+                                validation=""
+                                value="Samantha Adriano"
+                />
+                <Input
+                                currency=""
+                                label="Email"
+                                name="email"
+                                onChange={[Function]}
+                                prompt="friend@friend.com"
+                                validation=""
+                                value="sammadrianos@gmail.com"
+                />
+                <Input
+                                currency="£"
+                                label="Amount"
+                                name="amount"
+                                onChange={[Function]}
+                                prompt="1000.00"
+                                validation=""
+                                value="5500.00"
+                />
+                <Button
+                                enabled={true}
+                                onClick={[Function]}
+                                text="Send"
+                />
+</div>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Send Money",
+              },
+              "ref": null,
+              "rendered": "Send Money",
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <Input
+                    currency=""
+                    label="Name"
+                    name="name"
+                    onChange={[Function]}
+                    prompt="Friend name"
+                    validation=""
+                    value="Samantha Adriano"
+/>,
+                  <Input
+                    currency=""
+                    label="Email"
+                    name="email"
+                    onChange={[Function]}
+                    prompt="friend@friend.com"
+                    validation=""
+                    value="sammadrianos@gmail.com"
+/>,
+                  <Input
+                    currency="£"
+                    label="Amount"
+                    name="amount"
+                    onChange={[Function]}
+                    prompt="1000.00"
+                    validation=""
+                    value="5500.00"
+/>,
+                  <Button
+                    enabled={true}
+                    onClick={[Function]}
+                    text="Send"
+/>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "currency": "",
+                    "label": "Name",
+                    "name": "name",
+                    "onChange": [Function],
+                    "prompt": "Friend name",
+                    "validation": "",
+                    "value": "Samantha Adriano",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "currency": "",
+                    "label": "Email",
+                    "name": "email",
+                    "onChange": [Function],
+                    "prompt": "friend@friend.com",
+                    "validation": "",
+                    "value": "sammadrianos@gmail.com",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "currency": "£",
+                    "label": "Amount",
+                    "name": "amount",
+                    "onChange": [Function],
+                    "prompt": "1000.00",
+                    "validation": "",
+                    "value": "5500.00",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "enabled": true,
+                    "onClick": [Function],
+                    "text": "Send",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "section",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h1>
+                My Account
+</h1>,
+              <chartComponent
+                chartData={
+                                Array [
+                                                "1000.00",
+                                                "4000.00",
+                                              ]
+                }
+                chartLabels={
+                                Array [
+                                                "Total sent",
+                                                "Left available",
+                                              ]
+                }
+/>,
+              <div>
+                <h3>
+                                Transactions
+                </h3>
+                <List
+                                items={
+                                                Array [
+                                                                Object {
+                                                                  "amount": "1000.00",
+                                                                  "email": "joeleduardo@hotmail.com",
+                                                                  "name": "Joel Ortiz",
+                                                                },
+                                                              ]
+                                }
+                />
+</div>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "My Account",
+              },
+              "ref": null,
+              "rendered": "My Account",
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "chartData": Array [
+                  "1000.00",
+                  "4000.00",
+                ],
+                "chartLabels": Array [
+                  "Total sent",
+                  "Left available",
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h3>
+                    Transactions
+</h3>,
+                  <List
+                    items={
+                                        Array [
+                                                            Object {
+                                                              "amount": "1000.00",
+                                                              "email": "joeleduardo@hotmail.com",
+                                                              "name": "Joel Ortiz",
+                                                            },
+                                                          ]
+                    }
+/>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Transactions",
+                  },
+                  "ref": null,
+                  "rendered": "Transactions",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "items": Array [
+                      Object {
+                        "amount": "1000.00",
+                        "email": "joeleduardo@hotmail.com",
+                        "name": "Joel Ortiz",
+                      },
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "section",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

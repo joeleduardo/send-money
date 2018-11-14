@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'Alverata';
+  src: url('../assets/Alverata-Black.otf') format('woff')
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1, h3 {
+  font-family: 'Alverata', Helvetica, Arial, sans-serif;
+}
+
+section {
+  padding: 2rem;
+  border-bottom: 1px solid #cccccc;
+}
+
+section:last-of-type {
+  border-bottom: none;
+}
+
+.snackbar {
+  position: absolute;
+  width: 100%;
+  margin-top: -1rem;
+}
+
+.snackbar div {
+  border-radius: 8px;
+  color: #ffffff;
+  padding: 1rem;
+  background-color: #333333;
+}
+
+.no-items {
+  padding: 1rem;
+  color: #999999;
+  background-color: #efefef;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto;
+}
+
+@media screen and (min-width: 850px) {
+  section {
+    width: 100%;
+    border-right: 1px solid #cccccc;
+    border-bottom: none;
+  }
+
+  section:last-of-type {
+    border-right: none;
+  }
+
+  .wrapper {
+    flex-direction: row;
+    max-width: 980px;
+  }
+}
