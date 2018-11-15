@@ -62,11 +62,9 @@ test('Home page container and addLoan function', () => {
   cHomeContainer.props().addLoan(postTransaction, getTransaction);
 
   setImmediate(() => {
-    cHomeContainer.update();
+    expect(cHomeContainer.update()).toMatchSnapshot();
     expect(store.getActions()).toEqual(expectedAction)
   });
-
-  expect(cHomeContainer).toMatchSnapshot();
 
 });
 
