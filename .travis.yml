@@ -1,16 +1,17 @@
 language: node_js
 node_js:
-  - 8.0.0
+- 8.0.0
 cache:
   directories:
-    - "node_modules"
+  - node_modules
 script:
-  - npm test
-  - npm run build
+- npm test
+- npm run build
 deploy:
   provider: firebase
   skip_cleanup: true
-  local_dir: "build"
+  local_dir: build
   token:
-    secure: "RLcg+F0my7LFKExXcZjqlUeeVPIGvwx9FpVrCSaEMMqUYff2kdrYPr2kPBQ7PoIqtVzVpz/k7Q5dPrxlQhxq/S8NKm5WdTVPDIGYobgeiY5tax9Fv8yIZBn2sXzC8j0umVWXSpngWEjuPTs4k8IuoGGUhR9wmJRoX1lse63I02QcKFn4eQfOVqzClb0WJPjSEtyg4TyLXlgC7hWahZidagLQyKVFc7k5i5GMQdbsR3vIyEc09MsVkqNUyxbQfGoaFrbNm7stkRZXfdyHB/dYkkeVQE9OAf074/1BHnQ1ASn7tj+fhjZQykICJutdCZHvrb/jbjnkMlXwfQdwluiJFSG70ATUbLOXYgq34hAH90ycWZLeJBkXqZZ6QvVbmwGmVxmfLdDWAdXanrGz8gfwWRoXRt4RLlnCsQlJt92TetG7NhUIegP5hDJNyTsxExvSR0hYjFmN2XS5cLcUXdL5ZhN5jnqQuqsMJ5jUYgVL01Pxlr3uTDKTJBybPOl26U5vLa4xndZvq3/u48cFU8d7KGc0siiBQ29+2RmmteRN6eIPp5v6Pa/xmiM99J6kb6XdE0WqnK37ArdD0cSq4lzkkbwqzoAsFEDDpaP/VF3BriycPVGbXaQDORxDyjXquQh63vdYYUEDYCcCR1A01vpE90C8Ypm6p0PzTbgNcYesYqk="
-  project: "send-money-challenge"
+    secure: pRK5XZUAs7AAYLwvtSDGuo1H5+elQ6IQzsWCALgTFbqBz2X68/0WF8PFYUVm+oyjdv+dey96LmNUjfOUYleiZxedUotxsPD2TpBSHLm9KsDL6eGQ3bCwe2RWidSUNHoL8+/qlXFe+wM32kDI79stkVR7iEXzmJ4ZF6l627Tf3nC2awJqcUOBwCa3i28vUGr6WQunql51y3Yf650KTEcXABzCqzr/3iWJaKMqXNX8UYlbI4B4sCEX0CfK+vZHlUdmvrDSvagi0ASCXSFc5zoBU+mimEtkNVup7g5YozgC0OtyeUqhOPvhcI3yumYvtpEDyxo1OtkLtj28oSTe9gcP4keddqWDYz6j65C42yvZRJn4FcreefxFDeI39AqZelzYFcKVEAFVpqhFK/LKBJOXFAPFgSfi05s81HyDG4n4j7F+tnLoNSqUkou4CpDhMdTMldfA95cyDuFdrAvMdP187r1BQSp5MUWhdXQRTg92viShCnQfjmF/4Wwk7j0KfdHUR0gr8rMJeQxdXNPaqDGVilF3rRrJnyEC2Z5aEq3c+FItBLm6DIzGbPR5igroDWyBaDUhN4ATqhwSIrC6oSJNyZ1iruuleHA0MU1LK5GQaAz7nOEU4qpL4TRYvHUqzzegiPBZ31wrRCdPY5fRbKhSv8pDI+d2fYsnO03glS7OoAU=
+  project: send-money-challenge
+
