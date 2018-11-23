@@ -12,7 +12,7 @@ script:
 deploy:
   provider: script
   skip_cleanup: true
-  script: firebase deploy --token "$FIREBASE_TOKEN"
+  script: firebase login --token "$FIREBASE_TOKEN" && firebase deploy --token "$FIREBASE_TOKEN"
 env:
   global:
     secure: qp74Ofq81+hiWSNzzbkK6d/n2xLq7FIpuB+4J0ekiNA50vxQE76W4TK9kpehPp/7M6eXYgdObE/lCRjdFWm1qdbYt64QV4plmyY4MDfS1ZXk2EGmye6Nom3fdFn+3qS3bG2QMqYEwPyRLqMjgmanle4E/+aOHjewwR5m53bE7XUs3FVarra8lMiFeMbYYxkJ4aC+xGQIUXIddb0c7vZ0+yhjrlT1fGQgwdCPe5ctAUqZhwEn7qm2uZnNepHgruyH3bg17RPakaFQckXKpU0SOFTDYzvYuPFv8ymbilmjUzLbl6TLahlesRv8nM+tdPliJkCmKVBtqaOeQiOqwBFwRIs6ohEeRzQ5AELa0hMaXvLvYnuokPPI/D+q20OaOcbXOxNXFDt37mbNJ7LkhkvLlbf9YdovfsiDfgloluxcfPh4at8mEoQyf4l0wURnkAObEHjh7nloC6ktXXJG32JkTBYhXLJol1IIon1xqdoutgMQvqsIa2Pqho7Pi/BUx2HXqxkjSBnzV39SxocCmT6CfW+zFXiDwyKvArUTd7gFKmYeGxG1wmbTJMy6lgdR3stq3CHOTam43SgQISZIlfjIEiUompXCnM9gt5t2otgc2z2RcAq0r30bSsMZrUXSiLnzpvAII9k84rkkns/gE3Yqb2mDObC6iScMalSOxeLhtyw=
