@@ -9,7 +9,6 @@ script:
 - npm run build
 deploy:
   provider: firebase
-  edge: true
   skip_cleanup: true
   local_dir: build
   token:
