@@ -10,7 +10,7 @@ script:
 deploy:
   provider: firebase
   skip_cleanup: true
-  local_dir: build
+  local_dir: "build"
   token:
     secure: "iXbkcrD8gj8UVHqSHPie0eNNJiEGxqy8pYczea9ps+woRP8jZF4UN3zAPx75BgrW7LjM+GPgHvC8OC08z9OwtPSOUb3177GFla1+/tsr9d6pB4VTYQf/+tWMz8+Uc2PFYpFYdzH0hMYlOlHa/LDtczIuoRtNcCF/nL4p2o3AmEkMHjrFWo+PChBXGivzdHShkwKLaHjDy+CIA0YWVJCJygiZEUv4/LY2g4/Vyzo2duioIvMOvU12jv4km6kWQYmdYsugMT7HCdNOE5fCE3qhg+fEej85ZY3ar88kcL2uoBEDpTiJWlMaQfNPNSadmDteI1rebMC61dKEyB9VIyfyv+7WR2lO/owO4Z65pDq2Soco2raKmK7hOMuecF/PzjQpX8WHnG2nzeOGeOVTtEYV3r9FufFm7vev81/kCV/gIZpzp8gGUjJffVPXERQirAXkibCy8VwUqRH5ewVBTQDKtnULTTgY+uprOd5/Eu+VIhgRqvUQ3z5WFPeVzMo/4hQJB2RdMwg89LpdGM3ivls5iA6thicyqxRxZBP+jMVEwfTlC9DJ4qqALItl6aMxj4LZFU5LjHMNQM25D/mMy0ZiRaNs1OwxFl6qGFtkAltVMfP+XTC78TCfKQJfwcQ4LYfCPQspPG/mjmjVbUbvee/zUmr3jmI6LCSJtVW6ZsmMWcE="
   project: "send-money-challenge"
