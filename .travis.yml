@@ -4,13 +4,10 @@ node_js:
 cache:
   directories:
   - "node_modules"
+before_script:
+  - npm install -g firebase-tools
 script:
 - npm test
 - npm run build
-deploy:
-  provider: firebase
-  skip_cleanup: true
-  local_dir: "build"
-  token:
-    secure: "UtYczYDZtYIVtDvVFPhod/GDRbApyKKdp5EVnVP0GvhqDc4Jeeude038ectpvQU7FmNU8vP4ALXnuUQuAzxgrRpHgqAcqjpyNCNb9JeEJT7zXvvPh/Kzw2wl9UKsGrZ7A1LzOu6xvUQ3wsv+nQdgCcFMQ2nqEHwcdEOEm1F0iLN5bARH6uqdhd9+QGCIBX7Uio9WNqAfEUxIDERQO/TbC9AockNEMvSsTig2jTyo/C5HHbdAPTVj3dPab60ssS97PhsuyS1SxN2PXpqoLfRPOEwgOU1Ok5+ZF6gk2E9ZulCMiGPYsxIRarmYWhddyfqYRJ0y3f2ljFbxJKo27KGdzING0tDyMLWZGvf+TvY1Fnb9Hsk6Kz0wsYVLHQHPnSb+xIYlTZ9lpx6echSoO1fK7xoM7W0wiXX3p8a42WuW8+nvqEfWgb/Bvewl43dQZQlF5FxmIr0T1UmGQk9GLFeoSqNSdCxSBE9hZK84CSJS4izqnHV/vFco46Ple+wCL+/gtF6/pv/5X/UkqOSrpoAxttJy6NT7e+lh8jXcp7i87RYAXm+OEaRBqyg1SiKuy09u9ivBu0iq07ELaerUKmBSVIkNW6IbJvgfDOGojSaiRNIf/JYinJQHRoT6HUcwWO0DTPln4Fmk4gL1Jch9WnqAeli11EtpE2PWPunpLWXSKUQ="
-  project: "send-money-challenge"
+after_success:
+  - firebase deploy --token $REACT_APP_FIREBASE_TOKEN send-money-challenge
