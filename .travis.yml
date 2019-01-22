@@ -10,4 +10,5 @@ script:
 - npm test
 - npm run build
 after_success:
-  - firebase deploy --token $REACT_APP_FIREBASE_TOKEN --project send-money-challenge
+  - firebase use --token $REACT_APP_FIREBASE_TOKEN send-money-challenge
+  - firebase deploy --non-interactive --token $REACT_APP_FIREBASE_TOKEN
