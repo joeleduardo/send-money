@@ -7,7 +7,7 @@ cache:
 before_script:
   - npm install -g firebase-tools
 script:
-- npm test
+- npm test -- --coverage
 - npm run build
 after_success:
   - firebase use --token $REACT_APP_FIREBASE_TOKEN send-money-challenge
