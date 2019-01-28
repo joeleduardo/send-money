@@ -1,5 +1,4 @@
-# ZOPA - Send Money Challenge
-
+# ZOPA - Send Money Challenge [![Build Status](https://travis-ci.com/joeleduardo/send-money.svg?branch=master)](https://travis-ci.com/joeleduardo/send-money)
 Download the project first, then install dependencies by `npm`
 
 ```
